@@ -3,9 +3,12 @@ module github.com/pgdevelopers/workflows_model
 go 1.19
 
 require (
+	entgo.io/contrib v0.3.4
+	entgo.io/ent v0.11.6
+)
+
+require (
 	ariga.io/atlas v0.9.1-0.20230119123307-a3ab6808892b // indirect
-	entgo.io/contrib v0.3.4 // indirect
-	entgo.io/ent v0.11.6 // indirect
 	github.com/agext/levenshtein v1.2.1 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/go-openapi/inflect v0.19.0 // indirect
@@ -21,7 +24,7 @@ require (
 	go.uber.org/multierr v1.7.0 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/sys v0.2.0 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	golang.org/x/tools v0.3.1-0.20221202221704-aa9f4b2f3d57 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
